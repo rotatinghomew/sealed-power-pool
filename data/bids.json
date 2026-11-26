@@ -1,0 +1,108 @@
+[
+  {
+    "id": "B-A1",
+    "vendor": "风浦电力",
+    "credential": "QUAL-A",
+    "revision": 1,
+    "receipt_at": "2027-02-01T09:10:00+08:00",
+    "expires_at": "2027-02-01T16:00:00+08:00",
+    "packages": [
+      {
+        "id": "A1",
+        "lots": {
+          "N": 330,
+          "P": 310
+        },
+        "cents": 220000,
+        "exclusion": "A"
+      }
+    ]
+  },
+  {
+    "id": "B-A2",
+    "vendor": "风浦电力",
+    "credential": "QUAL-A",
+    "revision": 2,
+    "receipt_at": "2027-02-01T10:00:00+08:00",
+    "expires_at": "2027-02-01T22:00:00+08:00",
+    "packages": [
+      {
+        "id": "A1",
+        "lots": {
+          "N": 550,
+          "P": 490
+        },
+        "cents": 105000,
+        "exclusion": "A"
+      }
+    ]
+  },
+  {
+    "id": "B-B1",
+    "vendor": "升禾售电",
+    "credential": "QUAL-B",
+    "revision": 1,
+    "receipt_at": "2027-02-01T09:40:00+08:00",
+    "expires_at": "2027-02-01T16:00:00+08:00",
+    "packages": [
+      {
+        "id": "B1",
+        "lots": {
+          "P": 410
+        },
+        "cents": 130000,
+        "exclusion": "B"
+      },
+      {
+        "id": "B2",
+        "lots": {
+          "N": 270,
+          "P": 300
+        },
+        "cents": 190000,
+        "exclusion": "B"
+      }
+    ]
+  },
+  {
+    "id": "B-C1",
+    "vendor": "坪岭商电",
+    "credential": "QUAL-C",
+    "revision": 1,
+    "receipt_at": "2027-02-01T09:45:00+08:00",
+    "expires_at": "2027-02-01T22:00:00+08:00",
+    "packages": [
+      {
+        "id": "C1",
+        "lots": {
+          "S": 230
+        },
+        "cents": 70000
+      }
+    ]
+  },
+  {
+    "id": "B-D1",
+    "vendor": "海津配售",
+    "credential": "QUAL-D",
+    "revision": 1,
+    "receipt_at": "2027-02-01T09:55:00+08:00",
+    "expires_at": "2027-02-01T18:00:00+08:00",
+    "packages": [
+      {
+        "id": "D1",
+        "lots": {
+          "N": 320
+        },
+        "cents": 125000
+      },
+      {
+        "id": "D2",
+        "lots": {
+          "P": 325
+        },
+        "cents": 128000
+      }
+    ]
+  }
+]

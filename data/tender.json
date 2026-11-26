@@ -1,0 +1,36 @@
+[
+  {
+    "id": "AW-72",
+    "close_at": "2027-02-01T10:00:00+08:00",
+    "open_at": "2027-02-01T10:10:00+08:00",
+    "partial": true,
+    "limits": {
+      "total": 510000,
+      "main": 410000,
+      "island": 100000
+    },
+    "lots": [
+      {
+        "id": "N",
+        "group": "main",
+        "min_kwh": 250,
+        "max_kwh": 550,
+        "priority": 1
+      },
+      {
+        "id": "P",
+        "group": "main",
+        "min_kwh": 300,
+        "max_kwh": 500,
+        "priority": 2
+      },
+      {
+        "id": "S",
+        "group": "island",
+        "min_kwh": 190,
+        "max_kwh": 300,
+        "priority": 3
+      }
+    ]
+  }
+]
